@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: 'https://app-desafio-igti.herokuapp.com',
+    origin: 'http://172.16.139.18',
   })
 );
 
